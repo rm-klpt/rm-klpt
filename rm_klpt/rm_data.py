@@ -11,14 +11,14 @@ from sage.modules.free_module_element import vector
 from sage.quadratic_forms.binary_qf import BinaryQF
 from sage.arith.misc import is_square
 
-from rm_klpt.quaternion_matrix import (
+from quaternion_matrix import (
     QuaternionMatrix,
     lattice_subspace_intersection,
 )
-from rm_klpt.quaternion_ideal import QuaternionFractionalIdeal_nf
+from quaternion_ideal import QuaternionFractionalIdeal_nf
 
-from rm_klpt.represent_integer import RepresentIntegerSolver
-from rm_klpt.random_walk import random_walk
+from represent_integer import RepresentIntegerSolver
+from random_walk import random_walk
 
 
 class RM_endo_data:

@@ -1,7 +1,7 @@
 from random import choice
 from sage.arith.misc import is_square
 
-from rm_klpt.quaternion_matrix import QuaternionMatrix
+from quaternion_matrix import QuaternionMatrix
 
 
 def _check_rm_isogeny(a, g, gamma, order):

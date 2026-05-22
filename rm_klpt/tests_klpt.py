@@ -6,9 +6,9 @@ from sage.algebras.quatalg.quaternion_algebra import QuaternionAlgebra
 from sage.functions.other import floor
 from sage.misc.prandom import randint
 
-from rm_klpt.quaternion_matrix import QuaternionMatrix, lattice_subspace_intersection
-from rm_klpt.rm_data import random_rm
-from rm_klpt.represent_integer import RepresentIntegerSolver
+from quaternion_matrix import QuaternionMatrix, lattice_subspace_intersection
+from rm_data import random_rm
+from represent_integer import RepresentIntegerSolver
 
 
 def random_quaternion_matrix(B):

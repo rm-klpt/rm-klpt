@@ -11,7 +11,7 @@ The file `tests.py` may be loaded in sage in order to run some unit tests.
 
 ## File organisation
 
-- `demo_klpt.ipynb` is a Jupyter notebook which presents some example usage of the klpt method.
+- `demo.ipynb` is a Jupyter notebook which presents some example usage of the klpt method.
 - `rm_klpt/quadratic_form_nf.py` solves unbalanced diagonal quadratic forms defined over a number field.
 - `rm_klpt/quaternion_ideal.py`  implements a class for fractional in a quaternion algebra over a number field.
 - `rm_klpt/quaternion_matrix.py` implements a wrapper class for matrices over a rational quaternion algebra.
