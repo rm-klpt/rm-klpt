@@ -12,9 +12,9 @@ The file `tests.py` may be loaded in sage in order to run some unit tests.
 ## File organisation
 
 - `demo.ipynb` is a Jupyter notebook which presents some example usage of the klpt method.
-- `rm_klpt/quadratic_form_nf.py` solves unbalanced diagonal quadratic forms defined over a number field.
-- `rm_klpt/quaternion_ideal.py`  implements a class for fractional in a quaternion algebra over a number field.
-- `rm_klpt/quaternion_matrix.py` implements a wrapper class for matrices over a rational quaternion algebra.
-- `rm_klpt/random_walk.py` implements random walk in the RM 2-isogeny graph, and is used to generate example inputs.
-- `rm_klpt/rm_data.py` implements the core of the klpt computation.
+- `quadratic_form_nf.py` solves unbalanced diagonal quadratic forms defined over a number field.
+- `quaternion_ideal.py`  implements a class for fractional in a quaternion algebra over a number field.
+- `quaternion_matrix.py` implements a wrapper class for matrices over a rational quaternion algebra.
+- `random_walk.py` implements random walk in the RM 2-isogeny graph, and is used to generate example inputs.
+- `rm_data.py` implements the core of the klpt computation.
 - `tests_klpt.py` contains unit tests for some functions.
